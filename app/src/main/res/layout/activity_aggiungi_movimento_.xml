@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AggiungiMovimento">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#535352"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:title="Aggiungi Movimenti">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RadioButton
+        android:id="@+id/btn_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Seleziona una Data"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <EditText
+        android:id="@+id/text_amount"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_picker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/edittext_amount"
+        android:inputType="numberSigned|numberDecimal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_causale"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_submit"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/edittext_amount"
+        android:text="@string/cancel"
+         />
+
+    <EditText
+        android:id="@+id/add_causale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerTag"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="causale"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinnerTag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/text_amount"
+        android:layout_centerHorizontal="true"
+        android:background="#59FFD740"
+        android:entries="@array/macroaree" />
+
+
+</RelativeLayout>

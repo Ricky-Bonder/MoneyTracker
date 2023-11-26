@@ -1,0 +1,35 @@
+<resources>
+    <array name="macroaree">
+        <item>Seleziona una Macroarea</item>
+        <item>Tasse</item>
+        <item>Stipendio</item>
+        <item>Assegno</item>
+        <item>POS</item>
+        <item>Contanti</item>
+        <item>Rata</item>
+        <item>Altro</item>
+    </array>
+    <string name="app_name">Money Tracker</string>
+    <string name="date">Scegli una Data</string>
+    <string name="btn_picker">Add</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="edittext_amount">Importo (€)</string>
+    <string name="submit">Conferma</string>
+    <string name="cancel">Annulla</string>
+    <string name="aggiungi_movimento">Aggiungi Movimento</string>
+    <string name="lista_movimenti">Lista Movimenti</string>
+    <string name="title_activity_lista_movimenti">Lista_movimenti</string>
+    <string name="registrazione">Registrati</string>
+    <string name="login">Vai alla Pagina di Login</string>
+    <string name="accedi">Accedi</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="textviewImp">TextView</string>
+    <string name="textviewData">TextView</string>
+    <string name="idMov">ID</string>
+    <string name="Utente">TextView</string>
+    <string name="Macroarea">TextView</string>
+
+    <string name="Positive">TextView</string>
+</resources>

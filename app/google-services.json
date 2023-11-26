@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "845405051205",
+    "firebase_url": "https://money-58cd5.firebaseio.com",
+    "project_id": "money-58cd5",
+    "storage_bucket": "money-58cd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845405051205:android:485b0a74e35b3eaa",
+        "android_client_info": {
+          "package_name": "it.uninsubria.pdm.money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845405051205-fjt1mb3cbr2fc78jt2mdqgp5t5lmr1cv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.uninsubria.pdm.money",
+            "certificate_hash": "d2d9cf6d3435dd8c8c6ee3bfa2d6fc6b34deda8b"
+          }
+        },
+        {
+          "client_id": "845405051205-osgad2ol95r5v7rgajakecjkqvqhgtfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.uninsubria.pdm.money",
+            "certificate_hash": "6996a212a3aae5262a885880467bafa6986034eb"
+          }
+        },
+        {
+          "client_id": "845405051205-al1pd2tonh8ha653cdmnq5u5fhje743c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwwRYAcuP6iv-nT7ook1M1CE7BAbA_oxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845405051205-al1pd2tonh8ha653cdmnq5u5fhje743c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
